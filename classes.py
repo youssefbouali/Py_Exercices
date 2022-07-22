@@ -3,7 +3,7 @@ class Personne :
 		self.nom=a
 		self.prenom=b
 	def afficher (self) :
-		print ( 'Nom: ' , self. nom)
+		print ( 'Nom: ' , self.nom)
 		print ( 'Prenom : ' , self.prenom)
 	def modifier_nom (self, a ) :
 		self.nom=a
