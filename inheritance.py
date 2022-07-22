@@ -20,5 +20,5 @@ class Enseignant ( Personne ) :
 		print ( ' Matiere : ' , self.matiere )
 	def modifier_mat ( self , mat ) :
 		self.matiere=mat
-	def retourne r_mat ( self ) :
+	def retourner_mat ( self ) :
 		return ( self.matiere )
